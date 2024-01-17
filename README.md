@@ -1,8 +1,5 @@
 # startgit
-This is my first repo.
-<br>
-learning to use github.
+This repo is made to demonstrate opensource contribution skills of gdsc team.
 <br>
 Author - Priya Garg
-<br>
-This is my first commit.
+
