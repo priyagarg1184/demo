@@ -83,3 +83,8 @@
   .hide {
     display: none;
   }
+  /* change font size of questions and style=italic by Sweety*/
+  #question{
+    font-size: large;
+    font-style: italic;
+  }
