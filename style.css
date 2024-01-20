@@ -98,6 +98,7 @@
     background-color: hsl(var(--hue), 100%, 50%);
     border-radius: 5px;
     padding: 5px 10px;
+    font-size: 28px;
     color: white;
     outline: none;
   }
