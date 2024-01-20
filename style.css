@@ -14,10 +14,11 @@
     padding: 0;
     margin: 0;
     display: flex;
+    justify-content: center;
+    align-content: center;
     width: 100vw;
     height: 100vh;
-    justify-content: center;
-    align-items: center;
+   
     background-color: hsl(var(--hue), 100%, 20%);
   }
   
@@ -28,14 +29,46 @@
   body.wrong {
     --hue: var(--hue-wrong);
   }
-  
+  /* Feature: Navbar Created By Harsh Rajani */
+  .navbar{
+    display: flex;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    padding: 10px;
+    background-color: wheat;
+    justify-content: center;
+    align-content: center;
+
+  }
+  .container-fluid{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .navbar-brand{
+    text-decoration: none;
+    font-size: 50px;
+    font-weight: 400;
+    color: black;
+  }
+  .nav_img{
+    width: 58px;
+    height: 60px;
+    
+  }
   .container {
     width: 800px;
+    height: 200px;
     max-width: 80%;
+    align-self: center;
     background-color: white;
     border-radius: 5px;
     padding: 10px;
     box-shadow: 0 0 10px 2px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
   }
   
   .btn-grid {
