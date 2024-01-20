@@ -3,6 +3,7 @@ const nextButton = document.getElementById('next-btn')
 const questionContainerElement = document.getElementById('question-container')
 const questionElement = document.getElementById('question')
 const answerButtonsElement = document.getElementById('answer-buttons')
+const answerStatus = document.getElementById('answer-status');
 
 let shuffledQuestions, currentQuestionIndex
 
@@ -66,14 +67,17 @@ function setStatusClass(element, correct) {
   clearStatusClass(element)
   if (correct) {
     element.classList.add('correct')
+    answerStatus.innerText = 'Correct Answer!'
   } else {
     element.classList.add('wrong')
+    answerStatus.innerText = 'Wrong Answer'
   }
 }
 
 function clearStatusClass(element) {
   element.classList.remove('correct')
   element.classList.remove('wrong')
+  answerStatus.innerText = ""
 }
 
 const questions = [
