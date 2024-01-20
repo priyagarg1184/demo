@@ -5,21 +5,23 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="style.css" rel="stylesheet">
- 
+  <script src="https://cdn.tailwindcss.com"></script>
   <script defer src="script.js"></script>
   <title>Quiz App</title>
 </head>
+
 <body>
+  
   <!-- Feature: Navbar Created By Harsh Rajani  -->
   <nav class="navbar navbar-light bg-light">
-    <div class="container-fluid">
+    <div class="container-fluid" >
       <a href="#"><img src="./ideas.png" alt="icon" class="nav_img"></a>
       <a class="navbar-brand" href="#">
        Quiz Game
       </a>
     </div>
   </nav>
-  <div class="container">
+  <div class="container" style="background-image: url('question_bg.jpg')">
     <div id="question-container" class=" question-container hide">
       <div id="question">Question</div>
       <div id="answer-buttons" class="btn-grid">
@@ -35,5 +37,142 @@
       <button id="next-btn" class="next-btn btn hide">Proceed</button>
     </div>
   </div>
+  <section class="text-gray-600 body-font">
+    <div class="container px-5 py-24 mx-auto myteam">
+      <div class="flex flex-col text-center w-full mb-20">
+        <h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900">Our Team</h1>
+        <p class="lg:w-2/3 mx-auto leading-relaxed text-base" style="
+        color: black">Google Dev Students Club tech team: Innovating, coding, and shaping the future of tech. Together, we create limitless possibilities.</p>
+      </div>
+      <div class="flex flex-wrap -m-2">
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQG9oPaR7IUhZQ/profile-displayphoto-shrink_400_400/0/1689568317998?e=1710979200&v=beta&t=iK-1w20d2LC7ZiLorm0nd51rNz7-nD5VyhP35_pu7Uc">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Priya Garg</h2>
+              <p class="text-gray-500">GDSC Lead</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQFZ6HS7_vhuJQ/profile-displayphoto-shrink_400_400/0/1676974062435?e=1710979200&v=beta&t=putdXg11F4VVhCN7P-w3Z1QgdgiU4f4bAKUCYt01780">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Kumkum Sharma</h2>
+              <p class="text-gray-500">Web Development Lead</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQFKFQLYF9ZVIQ/profile-displayphoto-shrink_100_100/0/1695620717666?e=1710979200&v=beta&t=tnba1zs_5G4QXMAWs9DJh5YZLVmq9LvdkxS0LeXNIFg">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Ujawal Vaishnav</h2>
+              <p class="text-gray-500">Competitive Programm. Lead</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQHe5gNgbe0qww/profile-displayphoto-shrink_100_100/0/1682941821398?e=1710979200&v=beta&t=LCA_1Jlj96jseNnoJKncWyC8i2s7mKctWiMj2aaaJzo">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Nikhil Goyal</h2>
+              <p class="text-gray-500">AI Lead</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQFMFLRzuJWBWg/profile-displayphoto-shrink_100_100/0/1702142879556?e=1710979200&v=beta&t=nYDY-vzw1J0S09agMIg_4RP_HIK2zo0VbF_ARhbS1Mc">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Aryan Kapur</h2>
+              <p class="text-gray-500">AI Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D35AQEB_QO_IOJm8w/profile-framedphoto-shrink_100_100/0/1689666352877?e=1706382000&v=beta&t=4tzApT70EbO3l6_qgwNnk2swqKuq7eCvTGxdPdP2IsQ">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Jasneet Singh Arora</h2>
+              <p class="text-gray-500">CP Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQGPzjrS0jfrXA/profile-displayphoto-shrink_100_100/0/1694672313114?e=1710979200&v=beta&t=59BENPdPtVpyXlvr_eVn56-V2OI5XPZCS863ZKd05IY">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Vranda Manihar</h2>
+              <p class="text-gray-500">Web Dev Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D35AQEjgkh5pelziw/profile-framedphoto-shrink_100_100/0/1701542010696?e=1706382000&v=beta&t=hgDbKC-RLQEpYVF5O5h6wfQ3w_xWrbmFGDzOT0s9Tek">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Abhay Bohra</h2>
+              <p class="text-gray-500">AI Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQFbTgyL2TrXKg/profile-displayphoto-shrink_100_100/0/1686569525051?e=1710979200&v=beta&t=a0PMjFNmXdKDRahNP955VIRRaK_LaidlyFs6Des2_Ws">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Priyanka Soni</h2>
+              <p class="text-gray-500">CP Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQHKQCKJadQ1zA/profile-displayphoto-shrink_100_100/0/1686153776754?e=1710979200&v=beta&t=x3or-ZghYcD6WfE9rYO4GaYShU8ek5O7bBIXAaOKVhk">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Muskan Agarwal</h2>
+              <p class="text-gray-500">Web Dev Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQEpOKrx-VptCg/profile-displayphoto-shrink_100_100/0/1694545100133?e=1710979200&v=beta&t=_zofRnbHupEIkYHAy3wKVe3eFKgUM1Nl5xD1ij0PNjE">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Harash Rajani</h2>
+              <p class="text-gray-500">CP Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQErd0SGSsKdbA/profile-displayphoto-shrink_100_100/0/1680179327336?e=1710979200&v=beta&t=IWOHJK3sbyyk_cETNot4BLUuVFKqqdKqUhwPF4xmPxA">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Sweety Nehra</h2>
+              <p class="text-gray-500">Web Dev Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://media.licdn.com/dms/image/D4D03AQGpuPCSiRZg6A/profile-displayphoto-shrink_100_100/0/1694847150729?e=1710979200&v=beta&t=NuhgiA-bLBNMnimO_IwpC7s-8c9iw61RjoZFbyl0rws">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Bhaskar Katara</h2>
+              <p class="text-gray-500">CP Core Member</p>
+            </div>
+          </div>
+        </div>
+        <div class="p-2 lg:w-1/3 md:w-1/2 w-full">
+          <div class="h-full flex items-center border-gray-200 border p-4 rounded-lg">
+            <img alt="team" class="w-16 h-16 bg-gray-100 object-cover object-center flex-shrink-0 rounded-full mr-4" src="https://dummyimage.com/108x98">
+            <div class="flex-grow">
+              <h2 class="text-gray-900 title-font font-medium">Khawahish Mathur</h2>
+              <p class="text-gray-500">AI Core Member</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 </body>
 </html>
