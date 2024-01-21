@@ -159,6 +159,11 @@ body.wrong {
   --hue: var(--hue-wrong);
 }
 
+#answer-status {
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+
 .start-btn, .next-btn {
   font-size: 1.5rem;
   font-weight: bold;
