@@ -190,3 +190,14 @@ body.wrong {
   font-size: 32px;
   font-style: italic;
 }
+
+.myteam{
+  
+  position: absolute;
+  top: 620px;
+  left: 125px;
+  height: 840px;
+  background-image: url("myteam_img.jpg")
+}
+
+
